@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
+    "username": "armiariyan",
+    "password": "armiariyan",
     "database": "belajar_express",
-    "host": "127.0.0.1",
+    "host": "armiariyan-mysql-app",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "armiariyan",
+    "password": "armiariyan",
+    "database": "belajar_express",
+    "host": "armiariyan-mysql-app",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "armiariyan",
+    "password": "armiariyan",
+    "database": "belajar_express",
+    "host": "armiariyan-mysql-app",
     "dialect": "mysql"
   }
 }

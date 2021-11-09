@@ -284,11 +284,14 @@ function importJson(req, res) {
 }
 
 function importCsv(req, res) {
+
     // Path file CSV
     const csvFilePath = './data/RecruitmentTestData.csv'
 
     // Menggunakan library CSV untuk baca file
-    csv().fromFile(csvFilePath).then(async (data) => {
+    csv({
+        ignoreEmpty: true
+    }).fromFile(csvFilePath).then(async (data) => {
         // Menggunakan kembali fungsi import csv
         await models.Data.bulkCreate(data, {
             updateOnDuplicate: ["CustomerName", "DatePurchase", "Amount_due__c", "Discount__c", "GST__c", "CreatedDate", "LastModifiedDate"]

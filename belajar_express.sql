@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `data`
 --
 
-CREATE TABLE `data` (
+CREATE TABLE `Data` (
   `Id` varchar(255) NOT NULL,
   `CustomerName` varchar(255) DEFAULT NULL,
   `DatePurchase` varchar(15) DEFAULT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE `data` (
 -- Table structure for table `users`
 --
 
-CREATE TABLE `users` (
+CREATE TABLE `Users` (
   `id` int(11) NOT NULL,
   `username` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,

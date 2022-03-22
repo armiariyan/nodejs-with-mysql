@@ -1,6 +1,6 @@
-# Test Intern DompetKilat
+# IMPORTANT
 
-This project contain code for intern test for back end dev at dompet kilat
+This project was made when i do the intern. Code might get updated
 
 ## Start the docker
 
